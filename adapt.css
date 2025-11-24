@@ -1,0 +1,543 @@
+/* -------------------- basic -------------------- */
+@media (min-width: 1500px) {
+    h1 {
+      font-size: calc(var(--index) * 3.5);
+    }
+    h2 {
+      font-size: calc(var(--index) * 2);
+    }
+    h3 {
+      font-size: calc(var(--index) * 1.5);
+    }
+    
+    body {
+      font-size: calc(var(--index) * .8);
+    }
+}
+
+@media (max-width: 1200px) {
+    h1 {
+      font-size: 65px;
+    }
+    .container {
+        margin: 0 30px;
+    }
+}
+/* -------------------- basic /-------------------- */
+@media (min-width: 1500px) {
+    /* -------------------- header -------------------- */
+    .logo-name {
+      font-size: calc(var(--index) * 1.3);
+    }
+    .logo {
+      width: 115px;
+      height: 91px;
+    }
+    /* -------------------- header /-------------------- */
+
+    /* -------------------- main -------------------- */
+    .main__inner {
+        width: 50%;
+        margin-top: calc(var(--index) * 2);
+    }
+    .main-title {
+        font-size: calc(var(--index) * 1.3);
+    }
+    .main-img {
+        width: calc(var(--index) * 23);
+    }
+    /* -------------------- main /-------------------- */
+
+    /* --------------- cafes --------------- */
+    .cafes__text {
+        width: 80%;
+    }
+    .price {
+        font-size: calc(var(--index) * .8);
+    }
+    .product-name {
+        font-size: calc(var(--index) * 1.3);
+    }
+    .product-text {
+        font-size: calc(var(--index) * .8);
+    }
+    .product-btn {
+        font-size: calc(var(--index) * .8);
+    }
+    /* --------------- cafes /--------------- */
+
+    /* --------------- croissants --------------- */
+    .croissants {
+        margin-top: calc(var(--index) * 6);
+        margin-bottom: calc(var(--index) * 6);
+    }
+    .croissants__info {
+        width: 50%;
+    }
+    .croissants p {
+        width: 100%; 
+    }
+    .croissants__price {
+        color: #F9C4C4;
+        border-radius: 87px;
+        font-size: calc(var(--index) * 1);
+        font-weight: 600;
+        width: calc(var(--index) * 7);
+        height: calc(var(--index) * 2);
+    }
+    .croissants img {
+        width: calc(var(--index) * 30);
+    }
+    /* --------------- croissants /--------------- */
+
+    /* --------------- delivery --------------- */
+    .delivery-btn {
+        font-size: calc(var(--index) * 1);
+        width: 50%;
+    }
+    .delivery__info {
+        padding-right: calc(var(--index) * 1);
+    }
+    .delivery {
+        margin-bottom: calc(var(--index) * 6);
+    }
+    .delivery__inner {
+        height: calc(var(--index) * 10);
+        width: 90%;
+        margin: 0 auto;
+        padding: calc(var(--index) * 7) 0;
+    }
+    .delivery img {
+        width: calc(var(--index) * 30);
+    }
+    /* --------------- delivery /--------------- */
+
+    /* --------------- sobre --------------- */
+    .sobre {
+        margin-bottom: calc(var(--index) * 6);
+    }
+    .sobre__left {
+        width: 40%;
+    }
+    .sobre__right {
+        width: 40%;
+    }
+    .sobre__title {
+        font-size: calc(var(--index) * 1);
+    }
+    /* --------------- sobre /--------------- */
+
+    /* --------------- enjoy --------------- */
+    .enjoy__left {
+        width: 40%;
+    }
+    .enjoy__right {
+        width: 30%;
+    }
+    .enjoy__right p {
+        width: 80%;
+    }
+    .enjoy__title {
+        font-size: calc(var(--index) * 1.3);
+    }
+    .enjoy img {
+        width: calc(var(--index) * 25);
+        left: 30% !important;
+    }
+    /* --------------- enjoy /--------------- */
+
+    /* -------------------- footer -------------------- */
+    .footer__info {
+        width: 40%;
+    }
+    .footer__inst {
+        width: 30%;
+    }
+    .footer__name {
+        font-size: calc(var(--index) * 1);
+    }
+    /* -------------------- footer /-------------------- */
+
+}
+@media (max-width: 1200px) {
+    /* -------------------- header -------------------- */
+    .logo-name {
+      margin: 0 25px;
+      font-size: calc(var(--index) * 1);
+    }
+    .logo {
+      width: 85px;
+      height: 61px;
+    }
+    .menu {
+      gap: 30px;
+    }
+    /* -------------------- header /-------------------- */
+
+    /* -------------------- main -------------------- */
+    .main img {
+        width: calc(var(--index) * 25);
+        right: 0px;
+    }
+    .main__inner {
+        width: 45%;
+      }
+    /* -------------------- main /-------------------- */
+
+    /* --------------- cafes --------------- */
+    .price {
+        font-size: 15px;
+        margin-bottom: 0
+    }
+    .product-name {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .product-text {
+        font-size: 12px;
+        line-height: 125%; 
+    }
+    .products__item {
+      min-height: 10%;
+    }
+    /* --------------- cafes /--------------- */
+
+    /* --------------- croissants --------------- */
+    .croissants__info {
+      width: 50%;
+    }
+    .croissants img {
+      width: 50%;
+      z-index: -1;
+    }
+    /* --------------- croissants /--------------- */
+
+    /* --------------- delivery --------------- */
+    .delivery {
+        margin-bottom: 100px;
+    }
+    .delivery__img {
+        width: 50%;
+        bottom: 20px;
+    }
+    .delivery__info {
+      width: 50%;
+    }
+    /* --------------- delivery /--------------- */
+
+    /* --------------- sobre --------------- */
+    .sobre {
+        margin-bottom: 100px;
+    }
+    .sobre__inner {
+        justify-content: center;
+        gap: 30px;
+    }
+    .sobre__left {
+        width: 50%;
+    }
+    .sobre__right {
+        width: 30%;
+    }
+    .sobre .container {
+      margin: 0 80px;
+    }
+    .sobre img {
+      width: 20%;
+    }
+    /* --------------- sobre /--------------- */
+
+    /* --------------- enjoy --------------- */
+    .enjoy {
+      width: 100%;
+    }
+    .enjoy__left-img {
+      width: 30%;
+      right: 25%;
+    }
+    /* --------------- enjoy --------------- */
+}
+@media (max-width: 1330px) {
+    /* --------------- enjoy --------------- */
+    .enjoy__left-img {
+      width: 40%;
+      right: 25%;
+    }
+    /* --------------- enjoy --------------- */
+}
+
+@media (max-width: 800px) {
+    /* -------------------- basic -------------------- */
+    .container {
+      margin: 0 18px;
+    }
+    /* -------------------- basic /-------------------- */
+
+    /* --------------- header --------------- */
+    .buttons {
+      gap: 0;
+    }
+    .menu {
+      display: none;
+    }
+    .logo-name {
+        margin: 0 12px;
+        font-size: 16px;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+    .logo {
+        width: 55px;
+        height: 41px;
+    }
+    .buttons a {
+      display: none;
+    }
+    .header__btn {
+        width: auto;
+        height: auto;
+        border-radius: 39px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+    }
+    .header__btn-menu {
+      display: block;
+      color: inherit;
+      font-size: inherit;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      font-family: inherit;
+      padding: 0;
+      width: 30px;
+      height: 35px;
+    }
+    /* --------------- header /--------------- */
+
+    /* --------------- main --------------- */
+    .main-title {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .main p {
+      width: 80%;
+    }
+    .main-img {
+      width: 80% !important;
+    }
+    /* --------------- main /--------------- */
+
+    /* --------------- cafes --------------- */
+    .cafes .bg {
+        display: none;
+    }
+    .cafes {
+      margin-top: 100px;
+    }
+    .products {
+      display: block;
+    }
+    .cafes__text {
+        width: 80%;
+    }
+    .cafes__decore {
+        width: 39.764px;
+    }
+    .products__item {
+        width: 50%;
+        margin: 0 auto 20px;
+    }
+    .product-name {
+        font-size: 32px;
+        margin-bottom: 21px;
+    }
+    .product-text {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .product-btn {
+        font-size: 16px;
+        width: 100%;
+      }
+    /* --------------- cafes /--------------- */
+
+    /* --------------- croissants --------------- */
+    .croissants {
+      margin-top: 50px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .croissants__info {
+        width: 60%;
+        margin: auto;
+    }
+    .croissants .container {
+      margin: 0 30px;
+    }
+    .croissants__inner {
+      display: block;
+      text-align: center;
+    }
+    .croissants h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .croissants__price, .croissants h3 {
+      display: none;
+    }
+    .croissants p {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .croissants-decore {
+      margin: 30px auto 20px;
+    }
+    .a1 {
+      display: none;
+    }
+    .a2 {
+      display: block;
+    }
+    .croissants img {
+      width: 80%;
+    }
+    /* --------------- croissants /--------------- */
+
+    /* --------------- sobre --------------- */
+    .sobre__inner {
+      display: block;
+    }
+    .sobre .container {
+      margin: 0 30px 100px;
+    }
+    .sobre__right, .sobre__left {
+      width: 100%;
+    }
+    .sobre .bg {
+      width: 25%;
+      top: 20px;
+    }
+    .sobre__title {
+      margin-bottom: 21px;
+    }
+    .sobre h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    /* --------------- sobre /--------------- */
+}
+@media (max-width: 600px) {
+    /* --------------- main --------------- */
+    .main h1 {
+        margin-bottom: 12px;
+        font-size: 32px;
+        width: 154px;        
+    }
+    .main p {
+        width: 167px;
+    }
+    .main-img {
+        display: none;
+    }
+    .main-img2 {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+    /* --------------- main /--------------- */
+
+    /* --------------- cafes --------------- */
+    .cafes {
+      margin-top: 80px;
+    }
+    .cafes__text {
+        width: 100%;
+    }
+    .products__item {
+        width: 100%;
+    }
+    /* --------------- cafes /--------------- */
+
+    /* --------------- croissants --------------- */
+    .croissants__info {
+        width: 100%;
+    }
+    /* --------------- croissants /--------------- */
+
+    /* --------------- delivery --------------- */
+    .delivery__info {
+      text-align: center;
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+    }
+    .delivery__inner {
+      margin: auto;
+      height: auto;
+      width: 100%;
+      padding: 44px 25px;
+    }
+    .delivery__img {
+      display: none;
+    }
+    .delivery__title {
+        font-size: 36px;
+    }
+    .delivery__text {
+      width: 80%;
+      margin: 0 auto 60px;
+    }
+    /* --------------- delivery /--------------- */
+
+    /* --------------- enjoy --------------- */
+    .enjoy__inner {
+      display: block;
+    }
+
+    .enjoy__left, .enjoy__right {
+      width: 100%;
+      padding: 50px 30px;
+    }
+    .enjoy__left {
+      position: relative;
+    }
+    .enjoy__title {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+    .enjoy__right {
+        border-radius: 0px 0px  48px 48px;
+        height: 460px;
+    }
+    .enjoy__right p {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .enjoy__left-img {
+      bottom: 0;
+      right: 0;
+    }
+    .enjoy__right-decore {
+      width: 90%;
+      margin: 0 auto 25px;
+    }
+    /* --------------- enjoy /--------------- */
+
+    /* --------------- footer --------------- */
+    .footer {
+      padding: 0;
+    }
+    .footer__inner {
+      display: block;
+    }
+    .footer__item {
+      margin-bottom: 50px;
+    }
+    /* --------------- footer /--------------- */
+}
