@@ -1,18 +1,21 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
-:root{
+:root {
   --index: calc(1vw + 1vh);
 }
 /* -------------------- basic -------------------- */
 @font-face {
   src: url(fonts/Poppins-600.ttf);
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 h1 {
   font-size: 80px;
@@ -31,25 +34,25 @@ h3 {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 157%;
-  color: #3C0E0E;
-  background-color: #F7F2E8;
+  color: #3c0e0e;
+  background-color: #f7f2e8;
   position: relative;
 }
 button {
   cursor: pointer;
 }
-a{
+a {
   color: inherit;
   text-decoration: none;
 }
-li{
+li {
   list-style: none;
 }
-img{
+img {
   max-width: 100%;
 }
 .container {
@@ -57,10 +60,6 @@ img{
   margin: 0 150px;
 }
 /* -------------------- basic /-------------------- */
-
-
-
-
 
 /* -------------------- header -------------------- */
 .header {
@@ -78,7 +77,7 @@ img{
 }
 .logo-name {
   margin: 0 40px;
-  color: #1A1A1A;
+  color: #1a1a1a;
   font-size: 24px;
   font-weight: 500;
 }
@@ -92,7 +91,7 @@ img{
   gap: 40px;
 }
 .menu__item--active {
-  border-bottom: solid 5px #3C0E0E;
+  border-bottom: solid 5px #3c0e0e;
 }
 .buttons {
   display: flex;
@@ -103,7 +102,7 @@ img{
   color: #fff;
   font-size: 20px;
   border-radius: 40px;
-  background: #431B1B;
+  background: #431b1b;
   padding: 7px 23px;
   border: none;
   width: 152px;
@@ -113,7 +112,7 @@ img{
   display: none;
 }
 .header__btn-menu--event {
-  color: #F7F2E8;
+  color: #f7f2e8;
   background-color: #3e2222;
   width: 100%;
   height: 100%;
@@ -128,14 +127,14 @@ img{
   right: 0 !important;
 }
 .header__btn-menu-header {
-  border-bottom: 1px solid #F7F2E8;
+  border-bottom: 1px solid #f7f2e8;
   z-index: 6;
   margin-bottom: 5px;
 }
 .header__btn-menu--x {
   text-align: right;
 }
-.header__btn-menu-list{
+.header__btn-menu-list {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -144,8 +143,6 @@ img{
   gap: 20px;
 }
 /* -------------------- header /-------------------- */
-
-
 
 /* -------------------- main -------------------- */
 .main__inner {
@@ -171,8 +168,6 @@ img{
 }
 /* -------------------- main /-------------------- */
 
-
-
 /* -------------------- sections -------------------- */
 .bg {
   position: absolute;
@@ -191,7 +186,7 @@ img{
 .cafes__decore {
   width: 65.478px;
   height: 1px;
-  background: #3C0E0E;
+  background: #3c0e0e;
   margin: auto;
   margin-bottom: 20px;
   margin-top: 15px;
@@ -222,13 +217,21 @@ img{
   justify-content: space-between;
 }
 .products__item--1 {
-  background: linear-gradient(203deg, #F6C7C5 4.72%, #C27D7A 102.83%);
+  background: linear-gradient(203deg, #f6c7c5 4.72%, #c27d7a 102.83%);
 }
 .products__item--2 {
-  background: linear-gradient(203deg, rgba(250, 250, 250, 0.95) 4.72%, rgba(84, 21, 17, 0.58) 102.83%);
+  background: linear-gradient(
+    203deg,
+    rgba(250, 250, 250, 0.95) 4.72%,
+    rgba(84, 21, 17, 0.58) 102.83%
+  );
 }
 .products__item--3 {
-  background: linear-gradient(203deg, rgb(17, 15, 15) 4.72%, rgb(80, 25, 21) 102.83%);
+  background: linear-gradient(
+    203deg,
+    rgb(17, 15, 15) 4.72%,
+    rgb(80, 25, 21) 102.83%
+  );
 }
 .price {
   font-size: 20px;
@@ -250,20 +253,21 @@ img{
   font-size: 16px;
   font-weight: 600;
   border-radius: 25px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 8px 7px 0px rgba(0, 0, 0, 0.25);
   border: none;
   width: 100%;
   padding: 13px;
   min-height: 50px;
 }
-.cafes__bg-left, .cafes__bg-right {
+.cafes__bg-left,
+.cafes__bg-right {
   top: 0;
 }
 .cafes__bg-left {
   left: 0;
 }
-.cafes__bg-right  {
+.cafes__bg-right {
   right: 0;
 }
 /* --------------- cafes /--------------- */
@@ -282,9 +286,9 @@ img{
   width: 490px;
 }
 .croissants__price {
-  color: #F9C4C4;
+  color: #f9c4c4;
   border-radius: 47px;
-  background: #FFF;
+  background: #fff;
   font-size: 20px;
   font-weight: 600;
   width: 109.556px;
@@ -297,7 +301,7 @@ img{
 .croissants-decore {
   width: 48.594px;
   height: 1px;
-  background: #3C0E0E;
+  background: #3c0e0e;
   margin-bottom: 15px;
   margin-bottom: 18px;
 }
@@ -306,7 +310,7 @@ img{
   margin-bottom: 13px;
 }
 .croissants p {
-  width: 308px; 
+  width: 308px;
 }
 .croissants a {
   font-weight: 600;
@@ -323,7 +327,11 @@ img{
 }
 .delivery__inner {
   border-radius: 48px;
-  background: linear-gradient(203deg, rgba(243, 199, 196, 0.95) 4.72%, rgba(84, 21, 17, 0.95) 81.94%);
+  background: linear-gradient(
+    203deg,
+    rgba(243, 199, 196, 0.95) 4.72%,
+    rgba(84, 21, 17, 0.95) 81.94%
+  );
   height: 368.727px;
   display: flex;
   justify-content: space-between;
@@ -353,7 +361,7 @@ img{
   font-size: 16px;
   font-weight: 600;
   border-radius: 25px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 8px 7px 0px rgba(0, 0, 0, 0.25);
   border: none;
   width: 70%;
@@ -391,13 +399,14 @@ img{
 .sobre__text {
   margin-bottom: 20px;
 }
-.sobre__bg-left, .sobre__bg-right {
+.sobre__bg-left,
+.sobre__bg-right {
   bottom: 0;
 }
 .sobre__bg-left {
   left: 0;
 }
-.sobre__bg-right  {
+.sobre__bg-right {
   right: 0;
 }
 /* --------------- sobre /--------------- */
@@ -405,21 +414,25 @@ img{
 /* --------------- enjoy --------------- */
 .enjoy {
   margin-bottom: 100px;
-  color: #FFF;
+  color: #fff;
   position: relative;
 }
 .enjoy__inner {
   display: flex;
   justify-content: space-between;
   border-radius: 48px;
-  background: linear-gradient(203deg, rgba(84, 21, 17, 0.66) 4.72%, #F3C7C4 102.83%);
+  background: linear-gradient(
+    203deg,
+    rgba(84, 21, 17, 0.66) 4.72%,
+    #f3c7c4 102.83%
+  );
 }
 .enjoy__left {
   padding: 52px 0 61px 42px;
   width: 363px;
 }
 .enjoy__left-decore {
-  background: #FFF;
+  background: #fff;
   height: 1px;
   width: 51.41px;
   margin-top: 17px;
@@ -432,7 +445,7 @@ img{
 }
 .enjoy__link {
   display: block;
-  color: #3C0E0E;
+  color: #3c0e0e;
   font-weight: 600;
   margin-top: 30px;
 }
@@ -444,7 +457,7 @@ img{
 .enjoy__right {
   padding: 33px 30px;
   border-radius: 0px 48px 48px 0px;
-  background: linear-gradient(203deg, #8F423D 4.72%, #FFF 102.83%);
+  background: linear-gradient(203deg, #8f423d 4.72%, #fff 102.83%);
   width: 373px;
 }
 .enjoy__right h3 {
@@ -453,7 +466,7 @@ img{
 .enjoy__right-decore {
   width: 281.353px;
   height: 1px;
-  background: #FFF;
+  background: #fff;
   margin-bottom: 25px;
 }
 .enjoy__right p {
@@ -468,15 +481,13 @@ img{
 /* --------------- enjoy /--------------- */
 /* -------------------- sections /-------------------- */
 
-
-
 /* -------------------- footer -------------------- */
 .footer {
   padding-bottom: 80px;
   color: rgba(60, 14, 14, 0.68);
 }
 .footer__inner {
-  border-top: 1px solid rgba(0, 0, 0, 0.08);  
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
   padding-top: 70px;
   display: flex;
   justify-content: space-between;
@@ -493,7 +504,7 @@ img{
 .footer__info p {
   margin-bottom: 25px;
 }
-.footer__inst span{
+.footer__inst span {
   display: flex;
 }
 .footer__inst {
