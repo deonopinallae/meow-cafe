@@ -1,18 +1,7 @@
-/* ----- getting elements ----- */
+
 const menuBtn = document.querySelector('.header__btn-menu')
 const menu = document.querySelector('.header__btn-menu--event')
 const x = document.querySelector('.header__btn-menu--x')
-
-/* ----- getting elements ----- */
-
-
-// menuBtn.addEventListener('click', function(){
-//     menu.classList.remove('opnone')    
-// })
-
-// x.addEventListener('click', function(){
-//     menu.classList.add('opnone')
-// })
 
 menuBtn.addEventListener('click', function(){
     menu.classList.add('open')
